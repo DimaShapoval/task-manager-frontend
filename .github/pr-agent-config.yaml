@@ -1,0 +1,8 @@
+# .github/pr-agent-config.yaml
+pr_agent_config:
+  pr_reviewer:
+    enabled: true
+  pr_code_suggester:
+    enabled: true
+  pr_description_enhancer:
+    enabled: true
