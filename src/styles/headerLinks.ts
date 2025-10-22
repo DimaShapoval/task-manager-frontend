@@ -1,0 +1,1 @@
+export const headerLinksClass = 'border-none text-gray-700 hover:text-gray-900 focus:outline-none rounded-md px-3 py-1 text-sm font-medium flex items-center';

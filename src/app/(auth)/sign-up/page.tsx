@@ -1,5 +1,5 @@
 import { Metadata } from 'next';
-import SignUpForm from './components/SignUpForm';
+import RegistrationForm from '../(components)/registerForm';
 
 export const metadata: Metadata = {
     title: 'Sign Up - Task Manager',
@@ -16,9 +16,9 @@ export default function SignUp() {
         <div className="flex flex-col">
             <h1 className="text-5xl font-extrabold mt-[50px]">Sign Up</h1>
             <p className="text-gray-600 mt-3">
-                Please fill in the form to create an account.
+                Please fill in the form to create an account
             </p>
-            <SignUpForm />
+            <RegistrationForm />
             
         </div>
     );
