@@ -36,7 +36,6 @@ export default function RegistrationForm({ isLogin = false }: IProps) {
       return signIn(sendData)
         .unwrap()
         .then((response) => {
-          localStorage.setItem('token', response.accessToken);
           router.push('/');
         })
         .catch((error) => {
